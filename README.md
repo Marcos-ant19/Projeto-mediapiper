@@ -22,13 +22,31 @@ A lógica do programa consiste na identificação de gestos realizados com a mã
 
 Os comandos implementados atualmente são:
 
-* ☝️ Um dedo levantado:
+* ☝️ Indicador levantado:
 
   → abre o Bloco de Notas (Notepad)
 
-* ✌️ Dois dedos levantados:
+* ✌️ Indicador + médio levantados:
 
   → fecha o programa aberto
+
+---
+
+# Execução do programa
+
+Abra o terminal do VS Code e execute:
+
+```bash
+pip install opencv-python mediapipe
+```
+
+Depois rode o programa com:
+
+```bash
+python projeto.py
+```
+
+O programa abrirá a webcam e permitirá controlar o Bloco de Notas utilizando gestos das mãos.
 
 ---
 
